@@ -1,0 +1,72 @@
+{
+  "name": "expenseout",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "cli": "node cli.js",
+    "autoload": "node autoload.js",
+    "android:stag": "react-native run-android --variant=stagdebug",
+    "android:stag-release": "react-native run-android --variant=stagrelease",
+    "android:dev": "react-native run-android --variant=devdebug",
+    "android:dev-release": "react-native run-android --variant=devrelease",
+    "android:prod": "react-native run-android --variant=proddebug",
+    "android:prod-release": "react-native run-android --variant=prodrelease"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.11",
+    "@react-navigation/native": "^6.0.6",
+    "@types/i18n-js": "^3.8.2",
+    "@types/redux-logger": "^3.0.9",
+    "axios": "^0.24.0",
+    "colors": "^1.4.0",
+    "commander": "^8.3.0",
+    "dot": "^1.1.3",
+    "i18n-js": "^3.8.0",
+    "lodash.memoize": "^4.1.2",
+    "react": "17.0.2",
+    "react-native": "0.66.2",
+    "react-native-config": "^1.4.5",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.9.0",
+    "react-native-vector-icons": "^9.0.0",
+    "react-redux": "^7.2.6",
+    "recursive-readdir": "^2.2.2",
+    "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.23",
+    "@types/react-native": "^0.65.0",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.4.4"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
