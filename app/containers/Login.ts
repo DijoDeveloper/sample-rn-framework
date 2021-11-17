@@ -1,6 +1,6 @@
 /**
  * Login Container
- * @Author: Dinesh S
+ * @Author: Anand R
  * @Date: Fri Nov 12 2021 13:46:28 GMT+0530 (India Standard Time)
  * @Desc: Common options and redux functionality
  */
@@ -9,7 +9,7 @@
  * import all files and screens
  */
 
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 /**
  * Import Other files
  */

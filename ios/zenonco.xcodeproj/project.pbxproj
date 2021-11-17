@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ExpenseoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ExpenseoutTests.m */; };
+		00E356F31AD99517003FC87E /* zenoncoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* zenoncoTests.m */; };
 		0ABCF8C22C644F119C74F860 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 679CCE1197104547AE15185B /* EvilIcons.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,7 +15,7 @@
 		1508AD58A17B4074A282AEBC /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72B03E2AD1BF43F08A3D6FFD /* MaterialCommunityIcons.ttf */; };
 		26F116493D3C44A286A8DB66 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C58F76ECBB9E4921A7D5B929 /* Fontisto.ttf */; };
 		3952975EEBBD45C19B18DBA0 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66D2044572A746A4944A21B6 /* SimpleLineIcons.ttf */; };
-		4344BAB0B31B570A29893F58 /* libPods-Expenseout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1C24C964C190E7D9733D7E /* libPods-Expenseout.a */; };
+		4344BAB0B31B570A29893F58 /* libPods-zenonco.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1C24C964C190E7D9733D7E /* libPods-zenonco.a */; };
 		4C3C76F8327D4EBEBD4EC574 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB06D4127B48E6A2222856 /* Zocial.ttf */; };
 		50B32F197CAD4E7ABCD55E88 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B0729606DB84EF8A45C3D5E /* FontAwesome.ttf */; };
 		72A15524DA4A4086A11BE639 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE7E5564AD924CE2871A2AC3 /* Ionicons.ttf */; };
@@ -25,7 +25,7 @@
 		BE9EE126BF4149808C2F0333 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51A45851F95C494E967466DB /* FontAwesome5_Regular.ttf */; };
 		C1B3BA4C0EE747B09B8BBE46 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7AC5C6A3B41C8A1659329 /* Foundation.ttf */; };
 		C501BE14D944462E83DF5B6C /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CDC2932397A436FAE6B5D7B /* AntDesign.ttf */; };
-		DB0028393ED4CE2D1CD122D8 /* libPods-Expenseout-ExpenseoutTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6F7A76B53985085D489B9D /* libPods-Expenseout-ExpenseoutTests.a */; };
+		DB0028393ED4CE2D1CD122D8 /* libPods-zenonco-zenoncoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6F7A76B53985085D489B9D /* libPods-zenonco-zenoncoTests.a */; };
 		DBF67509FE004B779459FA4B /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFB6BF74F2FE4B39B6C3586D /* Octicons.ttf */; };
 		DE08E929934C41D898FB07CD /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896779A874E4AB0BF860CCD /* Feather.ttf */; };
 		E02AC6AE3E9A47A59B29DB0A /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3359D51B23994E8B9773D148 /* MaterialIcons.ttf */; };
@@ -38,40 +38,40 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Expenseout;
+			remoteInfo = zenonco;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* ExpenseoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* zenoncoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zenoncoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ExpenseoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpenseoutTests.m; sourceTree = "<group>"; };
-		0F6F7A76B53985085D489B9D /* libPods-Expenseout-ExpenseoutTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Expenseout-ExpenseoutTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* Expenseout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expenseout.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Expenseout/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Expenseout/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Expenseout/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Expenseout/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Expenseout/main.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* zenoncoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenoncoTests.m; sourceTree = "<group>"; };
+		0F6F7A76B53985085D489B9D /* libPods-zenonco-zenoncoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenonco-zenoncoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* zenonco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenonco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = zenonco/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = zenonco/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = zenonco/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = zenonco/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = zenonco/main.m; sourceTree = "<group>"; };
 		1CDC2932397A436FAE6B5D7B /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		1EA1146B4DB04CFCA7400F9A /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		2896779A874E4AB0BF860CCD /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		3359D51B23994E8B9773D148 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		4A1C24C964C190E7D9733D7E /* libPods-Expenseout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Expenseout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C919E45CD9EEED79CCCE3BC /* Pods-Expenseout-ExpenseoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expenseout-ExpenseoutTests.debug.xcconfig"; path = "Target Support Files/Pods-Expenseout-ExpenseoutTests/Pods-Expenseout-ExpenseoutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A1C24C964C190E7D9733D7E /* libPods-zenonco.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zenonco.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C919E45CD9EEED79CCCE3BC /* Pods-zenonco-zenoncoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenonco-zenoncoTests.debug.xcconfig"; path = "Target Support Files/Pods-zenonco-zenoncoTests/Pods-zenonco-zenoncoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4FDB06D4127B48E6A2222856 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		51A45851F95C494E967466DB /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		5B0729606DB84EF8A45C3D5E /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		66D2044572A746A4944A21B6 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		679CCE1197104547AE15185B /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		72B03E2AD1BF43F08A3D6FFD /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		79EDFAD13223088E344AB4D6 /* Pods-Expenseout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expenseout.release.xcconfig"; path = "Target Support Files/Pods-Expenseout/Pods-Expenseout.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Expenseout/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79EDFAD13223088E344AB4D6 /* Pods-zenonco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenonco.release.xcconfig"; path = "Target Support Files/Pods-zenonco/Pods-zenonco.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = zenonco/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DB7AC5C6A3B41C8A1659329 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
-		A67C5489CF18905729FE87BD /* Pods-Expenseout-ExpenseoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expenseout-ExpenseoutTests.release.xcconfig"; path = "Target Support Files/Pods-Expenseout-ExpenseoutTests/Pods-Expenseout-ExpenseoutTests.release.xcconfig"; sourceTree = "<group>"; };
+		A67C5489CF18905729FE87BD /* Pods-zenonco-zenoncoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenonco-zenoncoTests.release.xcconfig"; path = "Target Support Files/Pods-zenonco-zenoncoTests/Pods-zenonco-zenoncoTests.release.xcconfig"; sourceTree = "<group>"; };
 		ACE3A579688B44138C5C4840 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		AFB6BF74F2FE4B39B6C3586D /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
-		B965D8642FEA298CF49FD680 /* Pods-Expenseout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Expenseout.debug.xcconfig"; path = "Target Support Files/Pods-Expenseout/Pods-Expenseout.debug.xcconfig"; sourceTree = "<group>"; };
+		B965D8642FEA298CF49FD680 /* Pods-zenonco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenonco.debug.xcconfig"; path = "Target Support Files/Pods-zenonco/Pods-zenonco.debug.xcconfig"; sourceTree = "<group>"; };
 		BEE7502465EE4192941FB9D3 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		C58F76ECBB9E4921A7D5B929 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		DE7E5564AD924CE2871A2AC3 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB0028393ED4CE2D1CD122D8 /* libPods-Expenseout-ExpenseoutTests.a in Frameworks */,
+				DB0028393ED4CE2D1CD122D8 /* libPods-zenonco-zenoncoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,20 +91,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4344BAB0B31B570A29893F58 /* libPods-Expenseout.a in Frameworks */,
+				4344BAB0B31B570A29893F58 /* libPods-zenonco.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ExpenseoutTests */ = {
+		00E356EF1AD99517003FC87E /* zenoncoTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ExpenseoutTests.m */,
+				00E356F21AD99517003FC87E /* zenoncoTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ExpenseoutTests;
+			path = zenoncoTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -115,7 +115,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Expenseout */ = {
+		13B07FAE1A68108700A75B9A /* zenonco */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -125,15 +125,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Expenseout;
+			name = zenonco;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				4A1C24C964C190E7D9733D7E /* libPods-Expenseout.a */,
-				0F6F7A76B53985085D489B9D /* libPods-Expenseout-ExpenseoutTests.a */,
+				4A1C24C964C190E7D9733D7E /* libPods-zenonco.a */,
+				0F6F7A76B53985085D489B9D /* libPods-zenonco-zenoncoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,9 +171,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Expenseout */,
+				13B07FAE1A68108700A75B9A /* zenonco */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ExpenseoutTests */,
+				00E356EF1AD99517003FC87E /* zenoncoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E233CBF5F47BEE60B243DCF8 /* Pods */,
@@ -187,8 +187,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Expenseout.app */,
-				00E356EE1AD99517003FC87E /* ExpenseoutTests.xctest */,
+				13B07F961A680F5B00A75B9A /* zenonco.app */,
+				00E356EE1AD99517003FC87E /* zenoncoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,10 +196,10 @@
 		E233CBF5F47BEE60B243DCF8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B965D8642FEA298CF49FD680 /* Pods-Expenseout.debug.xcconfig */,
-				79EDFAD13223088E344AB4D6 /* Pods-Expenseout.release.xcconfig */,
-				4C919E45CD9EEED79CCCE3BC /* Pods-Expenseout-ExpenseoutTests.debug.xcconfig */,
-				A67C5489CF18905729FE87BD /* Pods-Expenseout-ExpenseoutTests.release.xcconfig */,
+				B965D8642FEA298CF49FD680 /* Pods-zenonco.debug.xcconfig */,
+				79EDFAD13223088E344AB4D6 /* Pods-zenonco.release.xcconfig */,
+				4C919E45CD9EEED79CCCE3BC /* Pods-zenonco-zenoncoTests.debug.xcconfig */,
+				A67C5489CF18905729FE87BD /* Pods-zenonco-zenoncoTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -207,9 +207,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ExpenseoutTests */ = {
+		00E356ED1AD99517003FC87E /* zenoncoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ExpenseoutTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "zenoncoTests" */;
 			buildPhases = (
 				06D6C97B56491F90BAA54208 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -223,14 +223,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ExpenseoutTests;
-			productName = ExpenseoutTests;
-			productReference = 00E356EE1AD99517003FC87E /* ExpenseoutTests.xctest */;
+			name = zenoncoTests;
+			productName = zenoncoTests;
+			productReference = 00E356EE1AD99517003FC87E /* zenoncoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Expenseout */ = {
+		13B07F861A680F5B00A75B9A /* zenonco */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Expenseout" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "zenonco" */;
 			buildPhases = (
 				7AD67B0FFED2123221832AC8 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -245,9 +245,9 @@
 			);
 			dependencies = (
 			);
-			name = Expenseout;
-			productName = Expenseout;
-			productReference = 13B07F961A680F5B00A75B9A /* Expenseout.app */;
+			name = zenonco;
+			productName = zenonco;
+			productReference = 13B07F961A680F5B00A75B9A /* zenonco.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -267,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Expenseout" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "zenonco" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -280,8 +280,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Expenseout */,
-				00E356ED1AD99517003FC87E /* ExpenseoutTests */,
+				13B07F861A680F5B00A75B9A /* zenonco */,
+				00E356ED1AD99517003FC87E /* zenoncoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -351,7 +351,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Expenseout-ExpenseoutTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-zenonco-zenoncoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,15 +364,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Expenseout-ExpenseoutTests/Pods-Expenseout-ExpenseoutTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenonco-zenoncoTests/Pods-zenonco-zenoncoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Expenseout-ExpenseoutTests/Pods-Expenseout-ExpenseoutTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenonco-zenoncoTests/Pods-zenonco-zenoncoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Expenseout-ExpenseoutTests/Pods-Expenseout-ExpenseoutTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenonco-zenoncoTests/Pods-zenonco-zenoncoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3F596E33B5935DE525C38DA4 /* [CP] Embed Pods Frameworks */ = {
@@ -381,15 +381,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Expenseout-ExpenseoutTests/Pods-Expenseout-ExpenseoutTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenonco-zenoncoTests/Pods-zenonco-zenoncoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Expenseout-ExpenseoutTests/Pods-Expenseout-ExpenseoutTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenonco-zenoncoTests/Pods-zenonco-zenoncoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Expenseout-ExpenseoutTests/Pods-Expenseout-ExpenseoutTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenonco-zenoncoTests/Pods-zenonco-zenoncoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6F557F57A52F0B76C27DC59C /* [CP] Embed Pods Frameworks */ = {
@@ -398,15 +398,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Expenseout/Pods-Expenseout-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenonco/Pods-zenonco-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Expenseout/Pods-Expenseout-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenonco/Pods-zenonco-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Expenseout/Pods-Expenseout-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenonco/Pods-zenonco-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7AD67B0FFED2123221832AC8 /* [CP] Check Pods Manifest.lock */ = {
@@ -424,7 +424,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Expenseout-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-zenonco-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -437,15 +437,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Expenseout/Pods-Expenseout-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenonco/Pods-zenonco-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Expenseout/Pods-Expenseout-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-zenonco/Pods-zenonco-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Expenseout/Pods-Expenseout-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenonco/Pods-zenonco-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -474,7 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ExpenseoutTests.m in Sources */,
+				00E356F31AD99517003FC87E /* zenoncoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,7 +492,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Expenseout */;
+			target = 13B07F861A680F5B00A75B9A /* zenonco */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -500,14 +500,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C919E45CD9EEED79CCCE3BC /* Pods-Expenseout-ExpenseoutTests.debug.xcconfig */;
+			baseConfigurationReference = 4C919E45CD9EEED79CCCE3BC /* Pods-zenonco-zenoncoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ExpenseoutTests/Info.plist;
+				INFOPLIST_FILE = zenoncoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -521,17 +521,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expenseout.app/Expenseout";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zenonco.app/zenonco";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A67C5489CF18905729FE87BD /* Pods-Expenseout-ExpenseoutTests.release.xcconfig */;
+			baseConfigurationReference = A67C5489CF18905729FE87BD /* Pods-zenonco-zenoncoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ExpenseoutTests/Info.plist;
+				INFOPLIST_FILE = zenoncoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -545,19 +545,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expenseout.app/Expenseout";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zenonco.app/zenonco";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B965D8642FEA298CF49FD680 /* Pods-Expenseout.debug.xcconfig */;
+			baseConfigurationReference = B965D8642FEA298CF49FD680 /* Pods-zenonco.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Expenseout/Info.plist;
+				INFOPLIST_FILE = zenonco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -568,7 +568,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Expenseout;
+				PRODUCT_NAME = zenonco;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -577,13 +577,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79EDFAD13223088E344AB4D6 /* Pods-Expenseout.release.xcconfig */;
+			baseConfigurationReference = 79EDFAD13223088E344AB4D6 /* Pods-zenonco.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Expenseout/Info.plist;
+				INFOPLIST_FILE = zenonco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -594,7 +594,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Expenseout;
+				PRODUCT_NAME = zenonco;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -730,7 +730,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ExpenseoutTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "zenoncoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -739,7 +739,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Expenseout" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "zenonco" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -748,7 +748,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Expenseout" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "zenonco" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

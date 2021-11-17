@@ -1,11 +1,11 @@
 /**
  * Login style
- * @Author: Dinesh S
+ * @Author: Anand R
  * @Date: Fri Nov 12 2021 13:46:28 GMT+0530 (India Standard Time)
  * @Desc: Styling of View
  */
 
-import {StyleSheet, Dimensions} from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 const height = Dimensions.get('window').height;
 const widht = Dimensions.get('window').width;
 

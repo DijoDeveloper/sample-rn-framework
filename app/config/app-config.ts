@@ -1,6 +1,6 @@
 /**
  * Application config
- * @Author: Dinesh S
+ * @Author: Anand R
  * @Date: 2021-11-10
  * @Desc: Application config
  */

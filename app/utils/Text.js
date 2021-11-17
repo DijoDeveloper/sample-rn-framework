@@ -1,6 +1,6 @@
 /**
  * javascript comment
- * @Author:Dinesh S
+ * @Author:Anand R
  * @Date: 2021-11-08
  * @Desc: Text Traits | Multilingual
  */

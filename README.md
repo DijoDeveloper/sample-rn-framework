@@ -1,8 +1,8 @@
 # INSTALL STEPS
 
-1. git clone http://192.168.1.140:3000/INFINITI/Expenseout_Mobile
-2. yarn install (to install the dependencies).
-3. yarn android:dev (create a debug build)
+
+1. yarn install (to install the dependencies).
+2. yarn android:dev (create a debug build)
 
 # POST INSTALL SCRIPTS
 

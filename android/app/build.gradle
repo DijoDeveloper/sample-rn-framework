@@ -141,12 +141,12 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.expenseout"
+        applicationId "com.zenonco"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
-        resValue "string", "build_config_package", "com.expenseout"
+        resValue "string", "build_config_package", "com.zenonco"
     }
     splits {
         abi {
@@ -187,18 +187,18 @@ android {
     productFlavors {
         dev {
             dimension "environment"
-            applicationId 'com.expenseout.dev'
-            resValue "string", "app_name", "Expenseout Dev"
+            applicationId 'com.zenonco.dev'
+            resValue "string", "app_name", "ZenOnco Dev"
         }
         prod {
             dimension "environment"
-            applicationId 'com.expenseout'
-            resValue "string", "app_name", "Expenseout"
+            applicationId 'com.zenonco'
+            resValue "string", "app_name", "ZenOnco"
         }
         stag {
             dimension "environment"
-            applicationId 'com.expenseout.stag'
-            resValue "string", "app_name", "Expenseout Stag"
+            applicationId 'com.zenonco.stag'
+            resValue "string", "app_name", "ZenOnco Stag"
         }
     }
 

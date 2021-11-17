@@ -1,19 +1,19 @@
 /**
- * @Author: Dinesh S
+ * @Author: Anand R
  * @Date: 2021-11-08
- * @Desc: ExpenseOut - Applicaiton's Entrypoint
+ * @Desc: ZenOnco - Applicaiton's Entrypoint
  */
 
-import {ActivityIndicator} from 'react-native';
-import {PersistGate} from 'redux-persist/es/integration/react';
-import {Provider} from 'react-redux';
+import { ActivityIndicator } from 'react-native';
+import { PersistGate } from 'redux-persist/es/integration/react';
+import { Provider } from 'react-redux';
 import React from 'react';
 import Text from './components/CustomText';
-import {ThemeContextProvider} from './utils/ThemeProvider';
+import { ThemeContextProvider } from './utils/ThemeProvider';
 import configureStore from './store';
 import setI18nConfig from './utils/LanguageProvider';
 
-const {persistor, store} = configureStore();
+const { persistor, store } = configureStore();
 
 const EntryPoint = () => {
 

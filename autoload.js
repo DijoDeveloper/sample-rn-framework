@@ -1,6 +1,6 @@
 /** 
  * javascript comment 
- * @Author: Dinesh S
+ * @Author: Anand R
  * @Date: 2021-11-11 
  * @Desc: Auto load Files - Plugin Based File Loading 
  */
@@ -32,10 +32,10 @@ program
                                     autoLoadfileList[val] = [];
                                     files.forEach(fList => {
 
-                                        console.log(fList,"flist")
+                                        console.log(fList, "flist")
                                         var fPath = fList.split('/');
                                         if (fPath[fPath.length - 1] == 'Index.tsx') {
-                                            autoLoadfileList[val][fPath[fPath.length - 2]] = fList.replace('app','..');
+                                            autoLoadfileList[val][fPath[fPath.length - 2]] = fList.replace('app', '..');
                                         }
                                     });
                                 });

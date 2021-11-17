@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
-target 'Expenseout' do
+target 'zenonco' do
   config = use_native_modules!
 
   use_react_native!(
@@ -16,7 +16,7 @@ target 'Expenseout' do
 
   pod 'react-native-config', :path => '../node_modules/react-native-config'
 
-  target 'ExpenseoutTests' do
+  target 'zenoncoTests' do
     inherit! :complete
     # Pods for testing
   end
