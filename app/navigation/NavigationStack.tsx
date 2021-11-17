@@ -12,7 +12,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { navigationRef } from './NavigationService';
 import LoginScreen from '../containers/Login'
-// import LandingScreen from '../containers/LandingScreen'
+import LandingScreen from '../containers/Landing'
 
 import { useSelector } from "react-redux";
 
@@ -36,7 +36,7 @@ const AuthStackScreen = () => {
             headerBackTitleVisible: false,
           }}
         />
-        {/* <AuthStack.Screen name="Zen.LandingScreen" component={LandingScreen} options={{ headerShown: false }} /> */}
+        <AuthStack.Screen name="Zen.LandingScreen" component={LandingScreen} options={{ headerShown: false }} />
 
       </AuthStack.Navigator>
     </NavigationContainer>

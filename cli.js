@@ -7,53 +7,53 @@ var config = require('./cli-config.json');
 var appConfig = require('./app.json');
 
 function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
+  return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 function compileTemplate(tpl, data) {
-    doT.templateSettings = {
-        evaluate: /\{\{([\s\S]+?)\}\}/g,
-        interpolate: /\{\{=([\s\S]+?)\}\}/g,
-        encode: /\{\{!([\s\S]+?)\}\}/g,
-        use: /\{\{#([\s\S]+?)\}\}/g,
-        define: /\{\{##\s*([\w\.$]+)\s*(\:|=)([\s\S]+?)#\}\}/g,
-        conditional: /\{\{\?(\?)?\s*([\s\S]*?)\s*\}\}/g,
-        iterate: /\{\{~\s*(?:\}\}|([\s\S]+?)\s*\:\s*([\w$]+)\s*(?:\:\s*([\w$]+))?\s*\}\})/g,
-        varname: 'it',
-        strip: false,
-        append: true,
-        selfcontained: false
-    };
-    var tempFn = doT.template(tpl);
-    return tempFn(data);
+  doT.templateSettings = {
+    evaluate: /\{\{([\s\S]+?)\}\}/g,
+    interpolate: /\{\{=([\s\S]+?)\}\}/g,
+    encode: /\{\{!([\s\S]+?)\}\}/g,
+    use: /\{\{#([\s\S]+?)\}\}/g,
+    define: /\{\{##\s*([\w\.$]+)\s*(\:|=)([\s\S]+?)#\}\}/g,
+    conditional: /\{\{\?(\?)?\s*([\s\S]*?)\s*\}\}/g,
+    iterate: /\{\{~\s*(?:\}\}|([\s\S]+?)\s*\:\s*([\w$]+)\s*(?:\:\s*([\w$]+))?\s*\}\})/g,
+    varname: 'it',
+    strip: false,
+    append: true,
+    selfcontained: false
+  };
+  var tempFn = doT.template(tpl);
+  return tempFn(data);
 }
 
 program
-    .version('0.0.1')
-    .description('React native Infiniti Framework CLI');
+  .version('0.0.1')
+  .description('React native msys Framework CLI');
 
 
 program
-    .command("generate [name]")
-    .alias('g')
-    .description('generate screens')
-    .action(function (env, options) {
-        if (!env) {
-            console.log(colors.red("Please give screen name"));
-            process.exit();
-        }
-        screenName = capitalizeFirstLetter(env);
-        screendir = "./app/screens/Default/";
-        dir = screendir + screenName;
-        if (!fs.existsSync(dir)) {
-            fs.mkdirSync(dir);
-        }
+  .command("generate [name]")
+  .alias('g')
+  .description('generate screens')
+  .action(function (env, options) {
+    if (!env) {
+      console.log(colors.red("Please give screen name"));
+      process.exit();
+    }
+    screenName = capitalizeFirstLetter(env);
+    screendir = "./app/screens/Default/";
+    dir = screendir + screenName;
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir);
+    }
 
-        if (fs.existsSync(dir)) {
-            componentFile = screendir + screenName + "/Index.tsx";
-            if (!fs.existsSync(componentFile)) {
+    if (fs.existsSync(dir)) {
+      componentFile = screendir + screenName + "/Index.tsx";
+      if (!fs.existsSync(componentFile)) {
 
-                tplText = `/**
+        tplText = `/**
  * ` + screenName + ` Component
  * @Author: ` + config.Author + `
  * @Date: ` + new Date().toString() + `
@@ -64,22 +64,22 @@ import Layout from './Layout';
 
 interface IProps {}
 
-export default function `+screenName+`(props: IProps) {
+export default function `+ screenName + `(props: IProps) {
   return <Layout {...props} />;
 }
 `;
-                tpl = compileTemplate(tplText, {});
-                fs.writeFile(componentFile, tpl, function (err) {
-                    if (err) throw err;
-                    fs.chmodSync(componentFile, 0777);
-                    console.log(colors.green("New file is created successfully in this path ->" + componentFile));
-                });
-            }
+        tpl = compileTemplate(tplText, {});
+        fs.writeFile(componentFile, tpl, function (err) {
+          if (err) throw err;
+          fs.chmodSync(componentFile, 0777);
+          console.log(colors.green("New file is created successfully in this path ->" + componentFile));
+        });
+      }
 
-            layoutFile = screendir + screenName + "/Layout.tsx";
-            if (!fs.existsSync(layoutFile)) {
+      layoutFile = screendir + screenName + "/Layout.tsx";
+      if (!fs.existsSync(layoutFile)) {
 
-                tplText = `/**
+        tplText = `/**
  * ` + screenName + ` layout page
  * @Author: ` + config.Author + `
  * @Date: ` + new Date().toString() + `
@@ -99,25 +99,25 @@ const Layout = (props: IProps) => {
   const styles = style(props.theme);
   return (
     <View style={styles.container}>
-      <Text>`+ screenName +`</Text>
+      <Text>`+ screenName + `</Text>
     </View>
   );
 };
 export default withTheme(Layout);
 `;
-                tpl = compileTemplate(tplText, {});
+        tpl = compileTemplate(tplText, {});
 
-                fs.writeFile(layoutFile, tpl, function (err) {
-                    if (err) throw err;
-                    fs.chmodSync(layoutFile, 0777);
-                    console.log(colors.green("New file is created successfully in this path ->" + layoutFile));
-                });
-            }
+        fs.writeFile(layoutFile, tpl, function (err) {
+          if (err) throw err;
+          fs.chmodSync(layoutFile, 0777);
+          console.log(colors.green("New file is created successfully in this path ->" + layoutFile));
+        });
+      }
 
 
-            styleFile = screendir + screenName + "/Style.ts";
-            if (!fs.existsSync(styleFile)) {
-                tplText = `/**
+      styleFile = screendir + screenName + "/Style.ts";
+      if (!fs.existsSync(styleFile)) {
+        tplText = `/**
  * ` + screenName + ` style
  * @Author: ` + config.Author + `
  * @Date: ` + new Date().toString() + `
@@ -141,19 +141,19 @@ const Style = (theme: any) => {
 
 export default Style;
 `;
-                tpl = compileTemplate(tplText, {});
+        tpl = compileTemplate(tplText, {});
 
-                fs.writeFile(styleFile, tpl, function (err) {
-                    if (err) throw err;
-                    fs.chmodSync(styleFile, 0777);
-                    console.log(colors.green("New file is created successfully in this path ->" + styleFile));
-                });
-            }
+        fs.writeFile(styleFile, tpl, function (err) {
+          if (err) throw err;
+          fs.chmodSync(styleFile, 0777);
+          console.log(colors.green("New file is created successfully in this path ->" + styleFile));
+        });
+      }
 
-            containerDir = "./app/containers/";
-            containerFile = containerDir + screenName + ".ts";
-            if (!fs.existsSync(containerFile)) {
-                tplText = `/**
+      containerDir = "./app/containers/";
+      containerFile = containerDir + screenName + ".ts";
+      if (!fs.existsSync(containerFile)) {
+        tplText = `/**
  * ` + screenName + ` Container
  * @Author: ` + config.Author + `
  * @Date: ` + new Date().toString() + `
@@ -191,28 +191,28 @@ const mapDispatchToProps = () => {
 const ` + screenName + `Container = connect(mapStateToProps, mapDispatchToProps)(` + screenName + `);
 export default ` + screenName + `Container;
 `;
-                tpl = compileTemplate(tplText, {});
+        tpl = compileTemplate(tplText, {});
 
-                fs.writeFile(containerFile, tpl, function (err) {
-                    if (err) throw err;
-                    fs.chmodSync(styleFile, 0777);
-                    console.log(colors.green("New file is created successfully in this path ->" + containerFile));
-                });
-            }
+        fs.writeFile(containerFile, tpl, function (err) {
+          if (err) throw err;
+          fs.chmodSync(styleFile, 0777);
+          console.log(colors.green("New file is created successfully in this path ->" + containerFile));
+        });
+      }
 
-            setTimeout(function () {
-                fs.chmodSync(containerDir, 0777);
-                console.log(colors.bgBlue("Screen Name -->" + appConfig.name + '.' + screenName));
-            }, 1000)
-        }
+      setTimeout(function () {
+        fs.chmodSync(containerDir, 0777);
+        console.log(colors.bgBlue("Screen Name -->" + appConfig.name + '.' + screenName));
+      }, 1000)
+    }
 
-        // fs.readFile('demofile1.html');
-    });
+    // fs.readFile('demofile1.html');
+  });
 
 // error on unknown commands
 program.on('command:*', function () {
-    console.error('Invalid command: %s\nSee --help for a list of available commands.', program.args.join(' '));
-    process.exit(1);
+  console.error('Invalid command: %s\nSee --help for a list of available commands.', program.args.join(' '));
+  process.exit(1);
 });
 
 program.parse(process.argv);
